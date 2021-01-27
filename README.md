@@ -2,7 +2,7 @@
 
 #No presente estudo foi utilizado o tutorial disponibilizado pela da WolfDynamics (disponível em http://www.wolfdynamics.com/tutorials.html?id=119), incluindo a malha
 
-#As simulações iniciais descritas no relatório foram realizadas com as condições originais do caso disponibilizado pela WolfDynamics (Re 5000000 e ângulo de ataque 0º)
+#As simulações iniciais foram realizadas com as condições originais do caso disponibilizado pela WolfDynamics (Re 5000000 e ângulo de ataque 0º)
 
 #Posteriormente, novas simulações foram realizadas, mas com as alterações:
 
@@ -10,3 +10,4 @@
   
     #número de Reynolds 1710000, através do valor de **nu** no dicionário transportProperties do diretório constant, onde nu=(c*U)/Re
     
+#O arquivo **run_30P30N_parallel** é o script utilizado para simular o caso no cluster computacional do Laboratório de Computação Científica (LCC) da UFSC-CTJ
