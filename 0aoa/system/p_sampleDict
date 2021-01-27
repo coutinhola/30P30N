@@ -1,0 +1,49 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      sampleDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+type surfaces;
+libs ("libsampling.so");
+interpolationScheme cellPoint;
+surfaceFormat raw;
+// Fields to sample.
+fields
+(
+    p 
+);
+surfaces
+(
+    wall_slat
+    {
+        type            patch;
+        patches         ( "wall_slat" );
+        // Optional: whether to leave as faces (=default) or triangulate
+        // triangulate     false;
+    }
+    wall_airfoil
+    {
+        type            patch;
+        patches         ( "wall_airfoil" );
+        // Optional: whether to leave as faces (=default) or triangulate
+        // triangulate     false;
+    }
+    wall_flap
+    {
+        type            patch;
+        patches         ( "wall_flap" );
+        // Optional: whether to leave as faces (=default) or triangulate
+        // triangulate     false;
+    }
+);
+// *********************************************************************** //
