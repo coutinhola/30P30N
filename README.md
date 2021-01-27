@@ -1,6 +1,6 @@
 # 30P30N
 
-No presente estudo foi utilizado o tutorial disponibilizado pela WolfDynamics (disponível em http://www.wolfdynamics.com/tutorials.html?id=119), incluindo a malha;
+No presente estudo foi utilizado o tutorial disponibilizado pela [WolfDynamics](http://www.wolfdynamics.com/tutorials.html?id=119), incluindo a malha;
 
 As simulações iniciais foram realizadas com as condições originais do caso disponibilizado pela WolfDynamics (Re 5000000 e ângulo de ataque 0º);
 
