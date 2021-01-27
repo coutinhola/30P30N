@@ -1,4 +1,4 @@
-#30P30N
+# 30P30N
 
 No presente estudo foi utilizado o tutorial disponibilizado pela WolfDynamics (disponível em http://www.wolfdynamics.com/tutorials.html?id=119), incluindo a malha;
 
