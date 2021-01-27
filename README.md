@@ -6,7 +6,7 @@
 
 #Posteriormente, novas simulações foram realizadas, mas com as alterações:
 
-  #ângulo de ataque 5.5º, através das componentes **Ux**e **Uy** de corrente livre no arquivo U do diretório 0_org, onde Ux=U*cos(alpha) e Uy=U*sin(alpha)
+    #ângulo de ataque 5.5º, através das componentes **Ux**e **Uy** de corrente livre no arquivo U do diretório 0_org, onde Ux=U*cos(alpha) e Uy=U*sin(alpha)
   
-  #número de Reynolds 1710000, através do valor de **nu** no dicionário transportProperties do diretório constant, onde nu=(c*U)/Re
+    #número de Reynolds 1710000, através do valor de **nu** no dicionário transportProperties do diretório constant, onde nu=(c*U)/Re
     
